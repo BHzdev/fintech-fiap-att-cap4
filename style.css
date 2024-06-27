@@ -1,0 +1,35 @@
+/* Login Page CSS */
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(33, 87, 235, 1) 60%,
+    rgba(255, 255, 255, 1) 40%
+  );
+  height: 100vh;
+  font-family: "Inter";
+}
+
+.container-m {
+  max-width: 720px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 > span {
+  letter-spacing: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .container-m {
+    max-width: 540px;
+    padding: 0 2rem;
+  }
+}
